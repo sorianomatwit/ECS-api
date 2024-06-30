@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Executable>C:\Users\sorianom\Documents\ECS api\x64\Debug\ECS test.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="TestCaseName.TestName" Duration="1" />
+    <TestDuration Test="ComponentSet.AddEntity" Duration="1" />
+    <TestDuration Test="TESTING.AddEntity" Duration="1" />
+    <TestDuration Test="TESTING.GetComponent" Duration="1" />
+    <TestDuration Test="TESTING.SetEntityData" Duration="1" />
+    <TestDuration Test="TESTING.GetNoComponent" Duration="1" />
+    <TestDuration Test="TESTING.HasEntity" Duration="1" />
+    <TestDuration Test="TESTING.RemoveOneEntity" Duration="1" />
+    <TestDuration Test="TESTING.RemoveEntity" Duration="1" />
+    <TestDuration Test="TESTING.testing" Duration="1" />
+    <TestDuration Test="AddEntity." Duration="1" />
+    <TestDuration Test="GetComponent." Duration="1" />
+    <TestDuration Test="SetEntityData." Duration="1" />
+    <TestDuration Test="GetNoComponent." Duration="1" />
+    <TestDuration Test="HasEntity." Duration="1" />
+    <TestDuration Test="RemoveOneEntity." Duration="1" />
+    <TestDuration Test="RemoveEntity." Duration="1" />
+    <TestDuration Test="testing." Duration="1" />
+    <TestDuration Test="ComponentSet.GetComponent" Duration="1" />
+    <TestDuration Test="ComponentSet.SetEntityData" Duration="1" />
+    <TestDuration Test="ComponentSet.GetNoComponent" Duration="1" />
+    <TestDuration Test="ComponentSet.HasEntity" Duration="1" />
+    <TestDuration Test="ComponentSet.RemoveOneEntity" Duration="1" />
+    <TestDuration Test="ComponentSet.RemoveEntity" Duration="1" />
+    <TestDuration Test="CreateComponentSet." Duration="1" />
+    <TestDuration Test="GetComponentKey." Duration="2" />
+    <TestDuration Test="GetComponentSet." Duration="1" />
+    <TestDuration Test="ComponentName." Duration="1" />
+    <TestDuration Test="ComponentSet_TEST.ComponentName" Duration="1" />
+    <TestDuration Test="ComponentSet_TEST.AddEntity" Duration="1" />
+    <TestDuration Test="ComponentSet_TEST.AddEntityWithData" Duration="1" />
+    <TestDuration Test="ComponentSet_TEST.GetComponent" Duration="1" />
+    <TestDuration Test="ComponentSet_TEST.SetEntityData" Duration="1" />
+    <TestDuration Test="ComponentSet_TEST.GetNoComponent" Duration="1" />
+    <TestDuration Test="ComponentSet_TEST.HasEntity" Duration="1" />
+    <TestDuration Test="ComponentSet_TEST.RemoveOneEntity" Duration="1" />
+    <TestDuration Test="ComponentSet_TEST.RemoveEntity" Duration="1" />
+    <TestDuration Test="ComponentManager_Test.CreateComponentSet" Duration="1" />
+    <TestDuration Test="ComponentManager_Test.GetComponentKey" Duration="1" />
+    <TestDuration Test="ComponentManager_Test.GetComponentSet" Duration="1" />
+    <TestDuration Test="ComponentSet_TEST.GetTypeName" Duration="1" />
+    <TestDuration Test="ComponentSet_Test.AddEntity" Duration="1" />
+    <TestDuration Test="ComponentSet_Test.GetComponent" Duration="1" />
+    <TestDuration Test="ComponentSet_Test.SetEntityData" Duration="1" />
+    <TestDuration Test="ComponentSet_Test.GetNoComponent" Duration="1" />
+    <TestDuration Test="ComponentSet_Test.HasEntity" Duration="1" />
+    <TestDuration Test="ComponentSet_Test.RemoveOneEntity" Duration="1" />
+    <TestDuration Test="ComponentSet_Test.RemoveEntity" Duration="1" />
+    <TestDuration Test="ComponentSet_Test.GetTypeName" Duration="1" />
+    <TestDuration Test="BitTracker_Test.Has" Duration="1" />
+    <TestDuration Test="BitTracker_Test.Add" Duration="1" />
+    <TestDuration Test="BitTracker_Test.Remove" Duration="1" />
+    <TestDuration Test="EntityManager_Test.CreateEntity" Duration="1" />
+    <TestDuration Test="EntityManager_Test.AddComponentKey" Duration="1" />
+    <TestDuration Test="EntityManager_Test.RemoveComponentKey" Duration="1" />
+    <TestDuration Test="EntityManager_Test.DestroyEntity" Duration="1" />
+    <TestDuration Test="Entity_Test.HasComponent" Duration="1" />
+    <TestDuration Test="Entity_Test.AddComponent" Duration="1" />
+    <TestDuration Test="Entity_Test.RemoveComponent" Duration="1" />
+    <TestDuration Test="Entity_Test.GetComponent" Duration="1" />
+    <TestDuration Test="Entity_Test.SetComponent" Duration="1" />
+    <TestDuration Test="Entity_Test.Destroy" Duration="1" />
+    <TestDuration Test="Entity_Test.Equals" Duration="1" />
+    <TestDuration Test="EntityManager_Test.AddKey" Duration="1" />
+    <TestDuration Test="EntityManager_Test.RemoveKey" Duration="1" />
+    <TestDuration Test="System_Test.Data" Duration="1" />
+    <TestDuration Test="Component.CreateComponent" Duration="1" />
+    <TestDuration Test="BitTracker_Test.AddMax" Duration="1" />
+    <TestDuration Test="Component_Test.SetCreated" Duration="1" />
+    <TestDuration Test="Component_TEST.InitComponentSet" Duration="1" />
+    <TestDuration Test="Entity_Test.InitComponentinline" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>

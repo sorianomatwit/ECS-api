@@ -1,0 +1,35 @@
+﻿  ECS api.cpp
+C:\Users\sorianom\Documents\ECS api\ComponentSet.hpp(88,51): warning C4267: '=': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\sorianom\Documents\ECS api\ComponentSet.hpp(88,51): warning C4267:         with
+C:\Users\sorianom\Documents\ECS api\ComponentSet.hpp(88,51): warning C4267:         [
+C:\Users\sorianom\Documents\ECS api\ComponentSet.hpp(88,51): warning C4267:             _Ty=uint16_t
+C:\Users\sorianom\Documents\ECS api\ComponentSet.hpp(88,51): warning C4267:         ]
+  (compiling source file 'ECS%20api.cpp')
+  C:\Users\sorianom\Documents\ECS api\ComponentSet.hpp(88,51):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\sorianom\Documents\ECS api\ECS api.cpp(19,31):
+  	see reference to class template instantiation 'System<Vec2>' being compiled
+  	C:\Users\sorianom\Documents\ECS api\System.hpp(28,38):
+  	while compiling class template member function 'void System<Vec2>::Run(float)'
+  		C:\Users\sorianom\Documents\ECS api\ECS api.cpp(40,11):
+  		see the first reference to 'System<Vec2>::Run' in 'main'
+  	C:\Users\sorianom\Documents\ECS api\System.hpp(30,27):
+  	see reference to class template instantiation 'ComponentSet<T>' being compiled
+          with
+          [
+              T=Vec2
+          ]
+  	C:\Users\sorianom\Documents\ECS api\ComponentSet.hpp(86,1):
+  	while compiling class template member function 'void ComponentSet<T>::AddEntity(uint16_t,const T &)'
+          with
+          [
+              T=Vec2
+          ]
+  		C:\Users\sorianom\Documents\ECS api\EntityManager.hpp(90,25):
+  		see the first reference to 'ComponentSet<T>::AddEntity' in 'Entity::AddComponent'
+          with
+          [
+              T=Vec2
+          ]
+  
+  ECS api.vcxproj -> C:\Users\sorianom\Documents\ECS api\x64\Debug\ECS api.exe
